@@ -13,10 +13,10 @@ export default function HomeTemplate({ places }: MapProps) {
       <NextSeo
         title="My Trips"
         description="A simple project to show in a map the places that I went and show more informations and photos when clicked."
-        canonical="https://my-trips.willianjusten.com.br"
+        canonical="https://world-cup-history-map.vercel.app/"
         openGraph={{
-          url: 'https://my-trips.willianjusten.com.br',
-          title: 'My Trips',
+          url: 'https://world-cup-history-map.vercel.app/',
+          title: 'World of Cup',
           description:
             'A simple project to show in a map the places that I went and show more informations and photos when clicked.',
           images: [
@@ -24,10 +24,10 @@ export default function HomeTemplate({ places }: MapProps) {
               url: 'https://my-trips.willianjusten.com.br/img/cover.png',
               width: 1280,
               height: 720,
-              alt: 'My Trips'
+              alt: 'World of Cup'
             }
           ],
-          site_name: 'My Trips'
+          site_name: 'World of Cup'
         }}
       />
       <LinkWrapper href="/about">
